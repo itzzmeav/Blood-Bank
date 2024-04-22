@@ -1,0 +1,708 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+bloodbankmanagement
+</name>
+</assembly>
+<members>
+<member name="T:blood__bank_management.bloodDataSet.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSetTableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSetTableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSetTableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.blood_bank__managementDataSet.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.blood_bank__managementDataSet.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.blood_bank__managementDataSet.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.blood_bank__managementDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.blood_bank__managementDataSetTableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.blood_bank__managementDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.blood_bank__managementDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.blood_bank__managementDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.blood_bank__managementDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.blood_bank__managementDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.blood_bank__managementDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.blood_bank__managementDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.blood_bank__managementDataSetTableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.blood_bank__managementDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.blood_bank__managementDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.blood_bank__managementDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.blood_bank__managementDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1TableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1TableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet1TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4TableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4TableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet4TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet7.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet7.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet7.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet7TableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet7TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:blood__bank_management.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:blood__bank_management.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:blood__bank_management.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3TableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3TableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet3TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6TableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6TableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet6TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet9.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet9.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet9.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet9TableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet9TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2TableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2TableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet2TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5.donorDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5.donorRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5.donorRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5TableAdapters.donorTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5TableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet5TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet8.tsendDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet8.tsendRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet8.tsendRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet8TableAdapters.tsendTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(blood__bank_management.bloodDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(blood__bank_management.bloodDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(blood__bank_management.bloodDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:blood__bank_management.bloodDataSet8TableAdapters.TableAdapterManager.UpdateAll(blood__bank_management.bloodDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:blood__bank_management.bloodDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
