@@ -1,0 +1,39 @@
+E:\backup project blood\blood  bank management\blood  bank management\bin\x86\Debug\blood  bank management.exe
+E:\backup project blood\blood  bank management\blood  bank management\bin\x86\Debug\blood  bank management.pdb
+E:\backup project blood\blood  bank management\blood  bank management\bin\x86\Debug\blood  bank management.xml
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Donor_Registration.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Form1.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Login.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.home.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Resources.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood  bank management.vbproj.GenerateResource.Cache
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood  bank management.exe
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood  bank management.xml
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood  bank management.pdb
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Send_Request.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.View_Request.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Search.resources
+E:\backup project blood\blood  bank management\blood  bank management\bin\x86\Debug\blood  bank management.exe.config
+E:\backup project blood\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.About.resources
+E:\backup project blood\blood  bank management\blood  bank management\bin\x86\Debug\blood.mdb
+D:\Blood managment\blood  bank management\blood  bank management\bin\x86\Debug\blood  bank management.exe.config
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood  bank management.exe
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood  bank management.xml
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood  bank management.pdb
+D:\Blood managment\blood  bank management\blood  bank management\bin\x86\Debug\blood.mdb
+D:\Blood managment\blood  bank management\blood  bank management\bin\x86\Debug\blood  bank management.exe
+D:\Blood managment\blood  bank management\blood  bank management\bin\x86\Debug\blood  bank management.pdb
+D:\Blood managment\blood  bank management\blood  bank management\bin\x86\Debug\blood  bank management.xml
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.About.resources
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Donor_Registration.resources
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Form1.resources
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Login.resources
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.home.resources
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Resources.resources
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood  bank management.vbproj.GenerateResource.Cache
+D:\Blood managment\blood  bank management\blood  bank management\bin\x86\Debug\blood bank  management.mdb
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.ViewDonorRegistration.resources
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.View_Client_Registration.resources
+D:\Blood managment\blood  bank management\blood  bank management\obj\x86\Debug\blood__bank_management.Client_Registration.resources

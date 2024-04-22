@@ -1,0 +1,13 @@
+E:\backup project blood\blood  bank management\blood  bank management\bin\Itanium\Debug\blood  bank management.exe
+E:\backup project blood\blood  bank management\blood  bank management\bin\Itanium\Debug\blood  bank management.pdb
+E:\backup project blood\blood  bank management\blood  bank management\bin\Itanium\Debug\blood  bank management.xml
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\ResolveAssemblyReference.cache
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood__bank_management.Donor_Registration.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood__bank_management.Form1.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood__bank_management.Login.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood__bank_management.home.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood__bank_management.Resources.resources
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood  bank management.vbproj.GenerateResource.Cache
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood  bank management.exe
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood  bank management.xml
+E:\backup project blood\blood  bank management\blood  bank management\obj\Itanium\Debug\blood  bank management.pdb

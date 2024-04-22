@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3CA0913C-46CD-429C-B8CD-117E8AE559F2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>blood__bank_management.My.MyApplication</StartupObject>
+    <RootNamespace>blood__bank_management</RootNamespace>
+    <AssemblyName>blood  bank management</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>blood  bank management.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>blood  bank management.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|Itanium' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Itanium\Debug\</OutputPath>
+    <DocumentationFile>blood  bank management.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|Itanium' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Itanium\Release\</OutputPath>
+    <DocumentationFile>blood  bank management.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>Itanium</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>blood  bank management.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>blood  bank management.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bloodDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bloodDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bloodDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="blood_bank__managementDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>blood_bank__managementDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Donor Registration.Designer.vb">
+      <DependentUpon>Donor Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Donor Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.vb">
+      <DependentUpon>home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Client Registration.Designer.vb">
+      <DependentUpon>Client Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Client Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Client Registration.Designer.vb">
+      <DependentUpon>View Client Registration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View Client Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewDonorRegistration.Designer.vb">
+      <DependentUpon>ViewDonorRegistration.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewDonorRegistration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donor Registration.resx">
+      <DependentUpon>Donor Registration.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client Registration.resx">
+      <DependentUpon>Client Registration.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Client Registration.resx">
+      <DependentUpon>View Client Registration.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewDonorRegistration.resx">
+      <DependentUpon>ViewDonorRegistration.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20230413_185237[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1681748092749[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1681749219184[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1681750828992[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1681751281786[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1681317991576[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1682076832486.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1681318006872.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1682176098891[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20230421_224554.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1681139457841.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1681139470981.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="bloodDataSet.xsc">
+      <DependentUpon>bloodDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet.xss">
+      <DependentUpon>bloodDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet1.xsc">
+      <DependentUpon>bloodDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet1.Designer.vb</LastGenOutput>
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="bloodDataSet1.xss">
+      <DependentUpon>bloodDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet2.xsc">
+      <DependentUpon>bloodDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet2.xss">
+      <DependentUpon>bloodDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\IMG-20230422-WA0028.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="blood bank  management.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="blood.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="bloodDataSet3.xsc">
+      <DependentUpon>bloodDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet3.xss">
+      <DependentUpon>bloodDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet4.xsc">
+      <DependentUpon>bloodDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet4.xss">
+      <DependentUpon>bloodDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet5.xsc">
+      <DependentUpon>bloodDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet5.xss">
+      <DependentUpon>bloodDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet6.xsc">
+      <DependentUpon>bloodDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet6.xss">
+      <DependentUpon>bloodDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet7.xsc">
+      <DependentUpon>bloodDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet7.xss">
+      <DependentUpon>bloodDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet8.xsc">
+      <DependentUpon>bloodDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet8.xss">
+      <DependentUpon>bloodDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet9.xsc">
+      <DependentUpon>bloodDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="bloodDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bloodDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bloodDataSet9.xss">
+      <DependentUpon>bloodDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="blood_bank__managementDataSet.xsc">
+      <DependentUpon>blood_bank__managementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="blood_bank__managementDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>blood_bank__managementDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="blood_bank__managementDataSet.xss">
+      <DependentUpon>blood_bank__managementDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\IMG_20230508_080652.jpg" />
+    <None Include="Resources\97ab7a29f41934571108f3863a5cfab5.jpg" />
+    <None Include="Resources\IMG_20230508_073730.jpg" />
+    <None Include="Resources\IMG_20230508_080717.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
